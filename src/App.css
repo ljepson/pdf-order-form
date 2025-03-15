@@ -36,3 +36,106 @@
     transform: rotate(360deg);
   }
 }
+
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.pdf-container {
+  margin: 20px 0;
+  position: relative;
+}
+
+.page-canvas {
+  position: relative;
+  cursor: pointer;
+}
+
+.selections-panel {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.selections-panel ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.selections-panel li {
+  margin: 10px 0;
+}
+
+.selections-panel input {
+  margin-left: 10px;
+  width: 80px;
+  padding: 5px;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.selections-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.selections-table th, 
+.selections-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.selections-table th {
+  background-color: #f2f2f2;
+}
+
+.remove-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.calibration-tools {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px dashed #ccc;
+  background-color: #f9f9f9;
+}
+
+.calibration-instructions {
+  margin-top: 10px;
+  font-style: italic;
+  color: #666;
+}
